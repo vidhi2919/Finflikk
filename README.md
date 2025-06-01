@@ -70,10 +70,12 @@ Refer to the expanded API Documentation PDF for full details.
 
 └── README.md             
 
-Notes
-Wallet deletion endpoint is intentionally excluded due to stability concerns.
-Admin routes should be protected with role-based middleware (not included here).
-Email alerts are mocked for development and testing.
+## Notes
+   Wallet deletion endpoint is intentionally excluded due to stability concerns.
+
+   Admin routes should be protected with role-based middleware (not included here).
+
+   Email alerts are mocked for development and testing.
 
 
 
