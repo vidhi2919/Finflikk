@@ -67,3 +67,9 @@ exports.transfer = async (req, res) => {
     res.status(500).json({ error: 'Transfer failed' });
   }
 };
+
+exports.softDeleteTransaction = async (req, res) => {
+  const { id } = req.params;
+  await Transaction.findByIdAndUpdate(id, { isDeleted: true });
+  res.json({ message: 'Transaction soft-deleted' });
+};
