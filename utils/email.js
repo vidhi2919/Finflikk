@@ -1,13 +1,3 @@
-// exports.sendAlertEmail = async (txn) => {
-//   console.log(`ALERT: Suspicious transaction flagged: ${txn._id}, Reason: ${txn.reason}`);
-// };
-
-// utils/email.js (mock example)
-// async function sendAlertEmail(to, subject, message) {
-//   console.log(`Mock Email sent to ${to}: ${subject} - ${message}`);
-// }
-// module.exports = { sendAlertEmail };
-
 exports.sendAlertEmail = (transaction) => {
   console.log(`🚨 MOCK EMAIL ALERT 🚨
 Subject: Suspicious Transaction Detected
