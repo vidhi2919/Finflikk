@@ -55,12 +55,19 @@ Refer to the expanded API Documentation PDF for full details.
 
 ## Folder Structure
 ├── controllers/          # Request handlers for routes
+
 ├── models/               # Mongoose schemas
+
 ├── routes/               # Express routes
+
 ├── cron/                 # Scheduled jobs (fraud scans)
+
 ├── utils/                # Utility functions (email alerts, etc.)
+
 ├── server.js             # App entry point
+
 ├── package.json          
+
 └── README.md             
 
 Notes
