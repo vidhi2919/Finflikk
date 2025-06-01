@@ -1,4 +1,3 @@
-// controllers/fraudScanController.js
 const Transaction = require('../models/Transaction');
 const Wallet = require('../models/Wallet');
 const FraudScan = require('../models/FraudScan');
